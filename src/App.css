@@ -41,6 +41,7 @@ a {
   font-size: 12px;
   text-decoration: underline;
   color: rgb(164, 149, 233);
+  cursor: pointer;
 }
 
 .App-link {
@@ -77,6 +78,7 @@ button {
   background-color: rgb(101, 95, 222);
   margin-top: 20px;
   color: white;
+  cursor: pointer;
 }
 
 .password-input {
