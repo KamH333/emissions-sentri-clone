@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/emissions-sentri-clone/static/css/main.c83ad986.css",
+    "main.js": "/emissions-sentri-clone/static/js/main.4f53a0d1.js",
+    "static/js/787.c0467128.chunk.js": "/emissions-sentri-clone/static/js/787.c0467128.chunk.js",
+    "static/media/emissionSentriLogo.png": "/emissions-sentri-clone/static/media/emissionSentriLogo.a2b1218faf8e90dda60d.png",
+    "static/media/show-password.png": "/emissions-sentri-clone/static/media/show-password.5dd8cb5c607214aa88df.png",
+    "index.html": "/emissions-sentri-clone/index.html",
+    "main.c83ad986.css.map": "/emissions-sentri-clone/static/css/main.c83ad986.css.map",
+    "main.4f53a0d1.js.map": "/emissions-sentri-clone/static/js/main.4f53a0d1.js.map",
+    "787.c0467128.chunk.js.map": "/emissions-sentri-clone/static/js/787.c0467128.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c83ad986.css",
+    "static/js/main.4f53a0d1.js"
+  ]
+}
