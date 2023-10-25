@@ -3,13 +3,11 @@
 }
 
 #logo {
-  height: 40px;
+  height: 60px;
   margin-left: 100px;
 }
 
-
-
- #container {
+#container {
   background-color: #000;
   min-height: 100vh;
   color: white;
@@ -23,13 +21,14 @@
   border-radius: 20px;
   padding: 20px;
   background-color: rgb(26, 24, 24);
-  width: 300px;
-  height: 250px;
+  width: 400px;
+  height: 350px;
 }
 
 #formItems {
   margin-top: 20px;
 }
+
 label {
   font-size: 11px;
   padding-bottom: 10px;
@@ -37,61 +36,64 @@ label {
 }
 
 a {
-  padding-left: 162px;
+  padding-left: 60%;
   font-size: 12px;
   text-decoration: underline;
   color: rgb(164, 149, 233);
+  cursor: pointer;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-
-
 input {
-  width: 300px;
-  height: 25px;
+  width: 400px;
+  height: 40px;
   background-color: rgb(26, 24, 24);
   border-radius: 5px;
   color: white;
+  border: 1px solid; 
 }
-input ::placeholder {
+
+
+input::placeholder {
   color: grey;
-  font-size: 16;
+  font-size: 17px;
   font-family: 'IBM Plex Sans';
-  font-weight: '400';
+  font-weight: 400; 
   line-height: 22;
 }
 
+
 #password {
-  font-family: 'iBM Plex Mono';
+  font-family: 'IBM Plex Mono'; /* Fixed typo in 'IBM' */
+  font-size: 16px;
 }
 
 button {
   margin-left: 2px;
-  width: 300px;
-  height: 30px;
+  width: 400px;
+  height: 35px;
   border-radius: 5px;
   border: none;
   background-color: rgb(101, 95, 222);
   margin-top: 20px;
   color: white;
+  cursor: pointer;
 }
 
 .password-input {
   position: relative;
 }
 
-
-
 #showIcon {
   background-color: transparent;
   padding: 0;
   border: none;
   position: absolute;
-  right: -5px; /* Adjust the position of the icon */
-  top: -16px; /* Adjust the position of the icon */
+  right: -5px;
+  top: -10px;
   cursor: pointer;
   width: 25px;
   height: 20px;
@@ -100,9 +102,9 @@ button {
 #showIcon img {
   background-color: rgb(26, 24, 24);
   width: 25px;
-  height: 20px;
-
+  height: 25px;
 }
+
 .input-container {
   position: relative;
 }
@@ -119,4 +121,3 @@ button {
   margin-top: 20px;
   white-space: nowrap;
 }
-

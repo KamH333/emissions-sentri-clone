@@ -1,6 +1,6 @@
 import './App.css';
 import logo from './emissionSentriLogo.png';
-import icon from './show-password.png';
+import icon from './show-password-white.png';
 import React, { useState } from 'react';
 
 function App() {
@@ -10,11 +10,17 @@ function App() {
   const [emailError, setEmailError] = useState('');
   const [passwordError, setPasswordError] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
-
+  const [emailEmptyField, setEmailEmptyField] = useState('');
+  const [passwordEmptyField, setPasswordEmptyField] = useState('');
   const togglePasswordVisibility = () => {
     setShowPassword(!showPassword);
-
   }
+
+  const changeBorderColor = () => {
+    setEmailEmptyField(email !== '');
+    setPasswordEmptyField(password !== '');
+  }
+  
   const handleLogin = () => {
     setEmailError(email ? '' : 'email is required');
     setPasswordError(password ? '' : 'password is required');
@@ -24,6 +30,13 @@ function App() {
       // Perform the login logic here
       return 'Login successful';
     }
+  }
+    const handleEmailFocus = () => {
+      setEmailError(email ? '' : 'email is required');
+    };
+  
+    const handlePasswordFocus = () => {
+      setPasswordError(password ? '' : 'password is required');
   };
   
   return (
@@ -39,8 +52,10 @@ function App() {
               type="email" 
               placeholder="Enter your email"
               value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              style={{ border: emailError ? '1px solid red' : '1px solid #ccc' }}>
+              onChange={(e) => { 
+                setEmail(e.target.value);
+                changeBorderColor();}}
+              style={{ border: emailError ? '1px solid red' : emailEmptyField ? '1px solid rgb(101, 95, 222)' : '1px solid #ccc' }}>
             </input>
             {emailError && (
               <div className= "error-bubble">
@@ -59,8 +74,11 @@ function App() {
             type= {showPassword ? 'text' : 'password'}
             placeholder="Enter your password"
             value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            style={{ border: passwordError ? '1px solid red' : '1px solid #ccc' }}>
+            onChange={(e) => {
+              setPassword(e.target.value);
+              changeBorderColor();}}
+            style={{ 
+              border: passwordError ? '1px solid red' : passwordEmptyField ? '1px solid rgb(101, 95, 222)' : '1px solid #ccc', }}>
           </input>
           {passwordError && (
               <div className= "error-bubble">
@@ -85,4 +103,5 @@ function App() {
       </div>
   );
 }
-export default App;
+export default App;                           
+
