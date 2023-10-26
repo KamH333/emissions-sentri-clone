@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/emissions-sentri-clone/static/css/main.b1e7ab94.css",
-    "main.js": "/emissions-sentri-clone/static/js/main.7f921b34.js",
+    "main.css": "/emissions-sentri-clone/static/css/main.7c175af5.css",
+    "main.js": "/emissions-sentri-clone/static/js/main.a73e1cac.js",
     "static/js/787.c0467128.chunk.js": "/emissions-sentri-clone/static/js/787.c0467128.chunk.js",
     "static/media/emissionSentriLogo.png": "/emissions-sentri-clone/static/media/emissionSentriLogo.a2b1218faf8e90dda60d.png",
     "index.html": "/emissions-sentri-clone/index.html",
-    "main.b1e7ab94.css.map": "/emissions-sentri-clone/static/css/main.b1e7ab94.css.map",
-    "main.7f921b34.js.map": "/emissions-sentri-clone/static/js/main.7f921b34.js.map",
+    "main.7c175af5.css.map": "/emissions-sentri-clone/static/css/main.7c175af5.css.map",
+    "main.a73e1cac.js.map": "/emissions-sentri-clone/static/js/main.a73e1cac.js.map",
     "787.c0467128.chunk.js.map": "/emissions-sentri-clone/static/js/787.c0467128.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1e7ab94.css",
-    "static/js/main.7f921b34.js"
+    "static/css/main.7c175af5.css",
+    "static/js/main.a73e1cac.js"
   ]
 }
