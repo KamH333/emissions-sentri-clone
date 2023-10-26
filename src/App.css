@@ -4,7 +4,7 @@
 
 #logo {
   height: 60px;
-  margin-left: 100px;
+  margin-left: 112px;
 }
 
 #container {
@@ -30,16 +30,25 @@
 }
 
 label {
-  font-size: 11px;
+  font-size: 14px;
+  font-family: IBM Plex Sans;
+  font-weight: 400px;
+  line-height: 20px;
+  word-wrap: break-word;
   padding-bottom: 10px;
   margin-bottom: 10px;
+  color: #D0D0D0;
+
 }
 
 a {
   padding-left: 60%;
-  font-size: 12px;
+  font-size: 14px;
+  font-family: 'IBM Plex Mono';
+  font-weight: 500px;
+  line-height: 20px;
   text-decoration: underline;
-  color: rgb(164, 149, 233);
+  color: #999DFF;
   cursor: pointer;
 }
 
@@ -58,29 +67,35 @@ input {
 
 
 input::placeholder {
-  color: grey;
-  font-size: 17px;
+  color: #8D8D8D;
+  font-size: 16px;
   font-family: 'IBM Plex Sans';
-  font-weight: 400; 
-  line-height: 22;
+  font-weight: 400px; 
+  line-height: 22px;
+  word-wrap: break-word;
 }
 
 
 #password {
   font-family: 'IBM Plex Mono'; /* Fixed typo in 'IBM' */
-  font-size: 16px;
+  font-size: 14px;
 }
 
 button {
   margin-left: 2px;
   width: 400px;
   height: 35px;
-  border-radius: 5px;
+  border-radius: 8px;
   border: none;
-  background-color: rgb(101, 95, 222);
+  background-color: #5258e4;
   margin-top: 20px;
-  color: white;
+  color: #EBEBEB;
   cursor: pointer;
+  font-size: 16px;
+  font-family: 'IBM Plex Sans';
+  font-weight: 500px;
+  line-height: 22px;
+  word-wrap: break-word;
 }
 
 .password-input {
@@ -111,11 +126,15 @@ button {
 
 .error-bubble {
   position: absolute;
-  background-color: grey;
-  color: white;
+  background-color: #303030;
+  color: #EBEBEB;
   padding: 5px;
   border-radius: 5px;
   font-size: 12px;
+  font-family: 'IBM Plex sans';
+  font-weight: 500px;
+  line-height: 16px;
+  word-wrap: break-word;
   top: 0;
   margin-left: 105%;
   margin-top: 20px;

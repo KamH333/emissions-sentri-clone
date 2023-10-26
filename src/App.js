@@ -55,7 +55,7 @@ function App() {
               onChange={(e) => { 
                 setEmail(e.target.value);
                 changeBorderColor();}}
-              style={{ border: emailError ? '1px solid red' : emailEmptyField ? '1px solid rgb(101, 95, 222)' : '1px solid #ccc' }}>
+              style={{ border: emailError ? '1px solid #EE4331' : emailEmptyField ? '1px solid #999DFF' : '1px solid #ccc' }}>
             </input>
             {emailError && (
               <div className= "error-bubble">
@@ -78,7 +78,7 @@ function App() {
               setPassword(e.target.value);
               changeBorderColor();}}
             style={{ 
-              border: passwordError ? '1px solid red' : passwordEmptyField ? '1px solid rgb(101, 95, 222)' : '1px solid #ccc', }}>
+              border: passwordError ? '1px solid #EE4331' : passwordEmptyField ? '1px solid #999DFF' : '1px solid #ccc', }}>
           </input>
           {passwordError && (
               <div className= "error-bubble">
